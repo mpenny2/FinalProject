@@ -5,14 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
-    <ImageView
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/on_color_large"
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
     <TextView
         android:text="DonoMatch"
         android:layout_width="wrap_content"
@@ -23,4 +15,13 @@
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:fontFamily="casual" />
+
+    <ImageView
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/on_color_large"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp" />
 </RelativeLayout>
