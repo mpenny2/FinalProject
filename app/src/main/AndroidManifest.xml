@@ -46,7 +46,19 @@
         <activity
             android:name=".ResetPasswordActivity"
             android:label="@string/title_activity_reset_password"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserIdentification"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="UserIdentification" />
+        <activity
+            android:name=".GiveProfile"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="GiveProfile" />
+        <activity
+            android:name=".GetProfile"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="GetProfile" />
 
     </application>
 

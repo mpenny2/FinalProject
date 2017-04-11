@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Let's set up a quick profile!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/GiveProfMessage"
+        android:textSize="25sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/State"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="State"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="City"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/StreetAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="StreetAddress"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/ZipCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Zip Code"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/Distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="How far are you willing to drive in miles?"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="Ready to Donate? Click Here!"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        android:padding="5dp"
+        android:background="@color/colorAccent"/>
+
+
+</LinearLayout>
