@@ -4,13 +4,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
         <Button
             android:id="@+id/btn_receiver"
             android:layout_width="fill_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_height="200dp"
-            android:layout_marginTop="140dip"
+            android:layout_marginTop="180dip"
             android:background="@color/colorAccent"
             android:text="ARE YOU RECEIVING?"
             android:textColor="@android:color/black"
@@ -23,7 +25,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_height="200dp"
-            android:layout_marginTop="360dip"
+            android:layout_marginTop="400dip"
             android:background="@color/colorAccent"
             android:text="ARE YOU DONATING?"
             android:textColor="@android:color/black"
@@ -34,7 +36,7 @@
         android:text="Welcome to DonoMatch and thank you for joining us. Which button characterizes your visit?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="70dp"
         android:id="@+id/WelcomeMessage"
         android:textSize="24sp"
         android:textColor="@color/colorPrimary"
