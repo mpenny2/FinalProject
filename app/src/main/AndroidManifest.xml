@@ -67,7 +67,18 @@
             android:name=".MapActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="MapActivity" />
-
+        <activity
+            android:name=".FoodActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="MapActivity" />
+        <activity
+            android:name=".ClothesActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="ClothesActivity" />
+        <activity
+            android:name=".ToyActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="ToyActivity" />
     </application>
 
 </manifest>
